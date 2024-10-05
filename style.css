@@ -1,0 +1,8 @@
+body{
+    background-color: aquamarine;
+}
+.GO-button
+{background-color: rgb(210, 206, 211);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-radius: 13px;
+}
