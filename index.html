@@ -7,26 +7,35 @@
 
     <title>My-weather-app</title>
 </head>
-<body><div>
-    <header>
-        <form>
-            <input type="search" placeholder="Search a City" class= "search-box" >
+<body>
+<div class = "weather-app">
+<header>
+<form>
+            <input type="search" placeholder="Search a City" class= "search-box"  >
             <input type="submit" value = "Go" class="GO-button"/>
-        </form>
+    </form>
     </header>
-    <h1>
+    <main>
+    <div class = "weather-frame">
+        <div>
+    <h1 class = "city-name" ><strong>
         Rome
-    </h1>
-    <div>
-        🌞 15 °C
-    </div>
-    
-    <p>
-        Humidity:20% 
-        <br/>
-        
+    </h1></strong>
+    <p class="other-detail">
+       Wednesday, Humidity:20%
+    <br/>
         Wind Speed:12 km/h
     </p>
+    </div>
+<span>
+    <div class ="weather-detail-container">
+    <div class="weather-icon">🌞</div>
+    <div class="weather-degree">15</div>
+    <div class="weather-degree-element">°C</div> 
+    </div></div></span>
+    </main>
+
+
     <footer>
         This project was coded by 
         <a href = "https://github.com/pariyamoh"  target="_blank">Pariya</a>

@@ -1,8 +1,52 @@
 body{
     background-color: aquamarine;
 }
-.GO-button
-{background-color: rgb(210, 206, 211);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-border-radius: 13px;
+header{
+    padding: 0 0 20px 0;
+}
+.weather-app {
+    background: white;
+    max-width: 600px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+}
+.search-box {
+    background-color: rgb(242, 235, 247);
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #dbd4ea;
+    border: none;
+    width: 80%;
+    padding: 15px 30px;
+}
+.GO-button{
+background-color: rgb(210, 206, 211);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 5px;
+width: 15%;
+margin-left: 15px;
+border: none;
+padding: 15px 30px;
+}
+
+.city-name{
+    font-family: monospace;
+}
+.weather-frame{
+    display: flex;
+    justify-content: space-between;
+}
+.weather-icon{
+font-family: monospace;
+    font-size: 20px;
+}
+.weather-degree{
+        font-family: monospace;
+        font-size: 20px;
+}
+.weather-degree-element{
+font-family: monospace;
+    font-size: 20px;
 }
