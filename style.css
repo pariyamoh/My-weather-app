@@ -42,11 +42,11 @@ font-family: monospace;
 }
 .weather-degree{
         font-family: monospace;
-        font-size: 20px;
+        font-size: 80px;
 }
 .weather-degree-element{
 font-family: monospace;
-    font-size: 20px;
+    font-size: 60px;
 }
 
 
@@ -56,12 +56,11 @@ font-family: monospace;
 }
 
 .weather-icon {
-    margin-right: 10px;
-    font-size: 25px;
+    margin-right: 50px;
     /* Adjust spacing as needed */
 }
 
 .weather-degree-element {
-    margin-left: 30px;
+    margin-left: 5px;
     /* Space between temperature and °C */
 }

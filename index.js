@@ -1,10 +1,21 @@
 function bringTemp (response){
 let temperatureElement = document.querySelector("#degree");
 let degree = response.data.temperature.current;
-  let cityElement = document.querySelector("#city");
-  cityElement.innerHTML = response.data.city;
+let cityElement = document.querySelector("#city");
+let conditionElement = document.querySelector("#condition");
+let humidityElement = document.querySelector("#humidity");
+let windElement = document.querySelector ("#wind");
+
+
+cityElement.innerHTML = response.data.city;
 temperatureElement.innerHTML = Math.round(degree);
+conditionElement.innerHTML = response.data.condition.description;
+humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+windElement.innerHTML  = `${response.data.wind.speed}Km/h`;
+
+
 }
+
 
 
 function searchPlace (city){
