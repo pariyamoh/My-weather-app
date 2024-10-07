@@ -48,3 +48,20 @@ font-family: monospace;
 font-family: monospace;
     font-size: 20px;
 }
+
+
+.weather-detail-container {
+    display: flex;
+    align-items: center;
+}
+
+.weather-icon {
+    margin-right: 10px;
+    font-size: 25px;
+    /* Adjust spacing as needed */
+}
+
+.weather-degree-element {
+    margin-left: 30px;
+    /* Space between temperature and °C */
+}
