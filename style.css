@@ -57,6 +57,8 @@ font-family: monospace;
 
 .weather-icon {
     margin-right: 50px;
+    width :88px;
+    height: 88px;
     /* Adjust spacing as needed */
 }
 
