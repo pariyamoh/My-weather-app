@@ -4,20 +4,25 @@ let degree = response.data.temperature.current;
 let cityElement = document.querySelector("#city");
 let conditionElement = document.querySelector("#condition");
 let humidityElement = document.querySelector("#humidity");
+
+let feelslike = document.querySelector("#feelslike");
 let windElement = document.querySelector ("#wind");
 let timesElement = document.querySelector ("#times");
 let date = new Date(response.data.time * 1000);
 let iconElement = document.querySelector("#icon");
+console.log (response.data);
+
 
 
 
 cityElement.innerHTML = response.data.city;
 temperatureElement.innerHTML = Math.round(degree);
 conditionElement.innerHTML = response.data.condition.description;
-humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-windElement.innerHTML  = `${response.data.wind.speed}Km/h`;
+humidityElement.innerHTML = `${response.data.temperature.humidity}%,`;
+windElement.innerHTML  = `${response.data.wind.speed} Km/h`;
 timesElement.innerHTML = formatDate(date);
 icon.innerHTML =`<img src = "${response.data.condition.icon_url}"  class="weather-icon" />`;
+feelslike.innerHTML = response.data.temperature.feels_like;
 
 }
 
